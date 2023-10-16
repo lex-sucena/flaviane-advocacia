@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navIconToggle {
+  content: url("../../assets/images/cancel-nav-menu.png");
+}

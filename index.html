@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <title>Flaviane Soares Advocacia | Home</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header class="flex items-baseline justify-between px-4 py-2">
+        <a href="index.html">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="./assets/images/header-logo-desktop.svg"
+            />
+            <img src="assets/images/header-logo-mobile.svg" alt="Logo" />
+          </picture>
+        </a>
+        <div id="mobile-nav-btn" class="md:hidden">
+          <img id="nav-menu-icon" src="assets/images/nav-menu.png" alt="" />
+        </div>
+        <nav
+          id="nav"
+          class="hidden absolute left-0 top-16 md:block bg-slate-400 w-full"
+        >
+          <ul class="flex flex-col md:flex-row">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Quem sou</a></li>
+            <li><a href="#">Atuação</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
